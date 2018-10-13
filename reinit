@@ -1,0 +1,36 @@
+#!/bin/bash
+
+
+
+echo -e "\033[0;32mDeleting public...\033[0m"
+sleep 5s
+rm -rf ./public
+
+echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+
+# Build the project.
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+# Go To Public folder
+cd public
+
+echo ".DS_Store" >> .gitignore
+echo "blog.zouhl.com" > CNAME
+# Add changes to git.
+git init 
+git add .
+git remote add origin git@github.com:zou2699/zou2699.github.io.git
+
+
+# Commit changes.
+msg="rebuilding site `date`"
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+git commit -m "$msg"
+
+# Push source and build repos.
+git push origin master -f 
+
+# Come Back up to the Project Root
+cd ..
