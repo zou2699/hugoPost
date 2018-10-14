@@ -13,6 +13,7 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 
+# psuh 
 git push origin master
 
 echo -e "\033[0;32mDeleting public...\033[0m"
