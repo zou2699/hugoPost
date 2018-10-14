@@ -4,6 +4,7 @@ echo -e "\033[0;32mDeploying hugo  to GitHub...\033[0m"
 
 sleep 3s
 
+git submodule update --init
 git add .
 
 # Commit changes.
