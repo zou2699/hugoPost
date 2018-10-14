@@ -15,7 +15,7 @@ fi
 git commit -m "$msg"
 
 # psuh 
-echo -e "\033[0;32mzPush to hugo ...\033[0m"
+echo -e "\033[0;32mPush to hugo ...\033[0m"
 git push origin master
 
 echo -e "\033[0;32mDeleting public...\033[0m"
@@ -46,7 +46,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-echo -e "\033[0;32mzPush to github page ...\033[0m"
+echo -e "\033[0;32mPush to github page ...\033[0m"
 git push origin master -f 
 
 # Come Back up to the Project Root
