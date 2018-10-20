@@ -39,7 +39,7 @@ canonifyurls = true
   # gravatarEmail = "zou2699@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://s1.ax1x.com/2018/10/11/it2hN9.jpg"
+  picture = "https://ws4.sinaimg.cn/large/006tNbRwgy1fwetthnljrj309x09xt8y.jpg"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -141,7 +141,7 @@ canonifyurls = true
   # Current image is on AWS S3 and delivered by AWS CloudFront.
   # Otherwise put your image in folder `static/_images/` (development)  or in `source/assets/images/` if you can't or don't want to build the theme,
   # and use relative url : `your-image.png`
-  coverImage = "https://s1.ax1x.com/2018/10/11/it2Tc6.jpg"
+  coverImage = "https://ws3.sinaimg.cn/large/006tNbRwgy1fwetcaehsaj31hc0u0q9e.jpg"
   # coverImage = "https://s1.ax1x.com/2018/10/11/it2o1x.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
