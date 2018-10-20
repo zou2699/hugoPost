@@ -8,7 +8,7 @@ tags:
 - test-tag 
 - markdown
 thumbnailImagePosition: left 
-thumbnailImage: //s1.ax1x.com/2018/10/11/it2hN9.jpg
+thumbnailImage: //ws3.sinaimg.cn/large/006tNbRwgy1fwds6htnp9j30hs0hktxh.jpg
 ---
 
 This is a test post. 
